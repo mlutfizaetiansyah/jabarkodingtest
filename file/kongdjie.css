@@ -1,0 +1,299 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  font-family: 'lato';
+   padding-top: 60px;
+}
+
+.navbar-nav{
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-link{
+  text-transform: uppercase;
+  font-family: 'lato';
+}
+/* jumbotron header */
+.jumbotron{
+  background: linear-gradient( #3D2120,#9D5A06);
+  background-size: cover;
+  height: 933px;
+}
+
+.logatas .cv{
+  width: 174px;
+  height: 43px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
+.logatas p{
+  font-family: 'lato';
+  font-weight: lighter;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.jumbotron img{
+  width: 304px;
+  height: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+.jumbotron p{
+  font-family: 'lato';
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size:14px;
+  /* margin-top: -240px; */
+  /* margin-left: -70%; */
+}
+
+.jumbotron a{
+  font-weight: normal;
+  color: white;
+}
+
+.joinus{
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  background :none;
+  width: 90px;
+  height: 25px;
+  border: 1px solid white;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: .6s;
+  overflow: hidden;
+  padding: 0;
+  /* text-shadow: 1px 1px 2px white; */
+  margin-left: 190px;
+}
+
+
+.joinus:hover{
+  background: white;
+  cursor: pointer;
+  color: #9D5A06;
+  border: 1px solid #3D2120;    
+}
+
+.tentang{
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  background :none;
+  width: 100px;
+  height: 25px;
+  border: 3px solid white;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: .6s;
+  overflow: hidden;
+  padding: 0;
+  /* text-shadow: 1px 1px 2px white; */
+  margin-left: 185px;
+  margin-top: 35px;
+}
+
+
+.tentang:hover{
+  background: white;
+  cursor: pointer;
+  color: #9D5A06;
+  border: 1px solid #3D2120;    
+}
+
+.medsos p{
+  /* position: absolute; */
+  margin: auto;
+  margin-top: 90px;
+  font-family: 'lato';
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+
+.medsos img{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  margin-top: -200px;
+}
+
+.medsos .instagram{
+  margin-top: -25px;
+  margin-left: 135px;
+}
+
+.medsos .facebook{
+  margin-top: -30px;
+  margin-right: 130px;
+}
+
+/* akhir jumbohead */
+
+@media (min-width:992px){
+  .navbar{
+  font-family: 'lato';
+   padding-top: 60px;
+}
+
+
+  .nav-link{
+    margin-right: 20px;
+    padding:auto;
+    color: white !important;
+    padding-top: 10px;
+  }
+
+  .nav-link:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #9d5a06 !important;
+  }
+
+  .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #3D2120;
+    width: 50%;
+    margin: auto;
+  }
+
+  .jumbotron{
+    margin-top: -165px;
+  }
+  .logatas .cv{
+    width: 285px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    padding-top: 20px;
+  }
+  
+  /* .logoatas p{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  } */
+
+
+  .jumbotron img{
+    width: 660px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+
+  .jumbotron p{
+    font-family: 'lato';
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -240px;
+    margin-left: -70%;
+  }
+
+  .jumbotron a{
+    font-weight: bold;
+    color: white;
+  }
+
+  .joinus{
+    text-decoration: none;
+    position: absolute;
+    background :none;
+    width: 120px;
+    height: 25px;
+    border: 3px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .6s;
+    overflow: hidden;
+    padding: 0;
+    /* text-shadow: 1px 1px 2px white; */
+    margin-left: 105px;
+  }
+
+  .joinus:hover{
+    background: white;
+    cursor: pointer;
+    color: #9D5A06;
+    border: 3px solid #3D2120;    
+  }
+
+  .tentang{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    background :none;
+    width: 100px;
+    height: 25px;
+    border: 3px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .6s;
+    overflow: hidden;
+    padding: 0;
+    /* text-shadow: 1px 1px 2px white; */
+    margin-left: 890px;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  
+  
+  .tentang:hover{
+    background: white;
+    cursor: pointer;
+    color: #9D5A06;
+    border: 1px solid #3D2120;    
+  }
+
+  .medsos p{
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 200px;
+  }
+
+  .medsos img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+  }
+
+  .medsos .instagram{
+    margin-top: -25px;
+    margin-left: 450px;
+  }
+
+  .medsos .facebook{
+    margin-top: -30px;
+    margin-right: 450px;
+  }
+}

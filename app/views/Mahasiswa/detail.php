@@ -1,0 +1,13 @@
+<!--
+    views untuk menampilkan data 
+!-->
+<div class="container mt-5">
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"><?= ucfirst($data['mhs']['nama']);?></h5>
+        <h6 class="card-subtitle mb-2 text-muted"><?=$data['mhs']['npm'];?></h6>
+        <p class="card-text"><?=$data['mhs']['email'];?></p>
+        <a href="<?=BASEURL,PORT,LOCATION;?>/Mahasiswa" class="card-link">Back</a>
+    </div>
+</div>
+</div>
